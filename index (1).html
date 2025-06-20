@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Reforma Subway St. Aeroporto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Subway St. Aeroporto</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Início</a></li>
+                <li><a href="#orcamento" class="nav-link">Orçamento</a></li>
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#materiais" class="nav-link">Materiais</a></li>
+                <li><a href="#cronograma" class="nav-link">Cronograma</a></li>
+                <li><a href="#observacoes" class="nav-link">Observações</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Início Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="container">
+                    <h1>Proposta de Reforma Subway St. Aeroporto</h1>
+                    <div class="summary-grid">
+                        <div class="summary-card">
+                            <h3>Valor Total</h3>
+                            <p class="summary-value">R$ 39.575,48</p>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Prazo de Execução</h3>
+                            <p class="summary-value">15 dias úteis</p>
+                            <p class="summary-detail">(dois turnos)</p>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Área Total</h3>
+                            <p class="summary-value">65,16 m²</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Orçamento Section -->
+        <section id="orcamento" class="section">
+            <div class="container">
+                <h2>Orçamento Detalhado</h2>
+                <div class="table-container">
+                    <table class="budget-table">
+                        <thead>
+                            <tr>
+                                <th>Descrição</th>
+                                <th>Valor</th>
+                                <th>Observação</th>
+                            </tr>
+                        </thead>
+                        <tbody id="budget-table-body">
+                            <!-- Budget items will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços Section -->
+        <section id="servicos" class="section">
+            <div class="container">
+                <h2>Serviços Inclusos</h2>
+                <div class="services-grid" id="services-grid">
+                    <!-- Service cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Materiais Section -->
+        <section id="materiais" class="section">
+            <div class="container">
+                <h2>Materiais Especificados</h2>
+                <div class="materials-grid" id="materials-grid">
+                    <!-- Materials cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Cronograma Section -->
+        <section id="cronograma" class="section">
+            <div class="container">
+                <h2>Cronograma de Execução</h2>
+                <div class="timeline" id="timeline">
+                    <!-- Timeline items will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Observações Importantes -->
+        <section id="observacoes" class="section notes-section">
+            <div class="container">
+                <h2>Observações Importantes</h2>
+                <div class="notes-grid">
+                    <div class="notes-content">
+                        <div class="terceiros-box">
+                            <h3>📋 Serviços de Terceiros</h3>
+                            <ul class="terceiros-list">
+                                <li><strong>Marcenaria, ACM e Vidros:</strong> As atividades que serão cotadas como marcenaria, ACM e vidros (se necessário) serão orçadas separadamente pela HM Engenharia.</li>
+                                <li><strong>Apresentação de Cotações:</strong> Faremos as cotações destes serviços e apresentaremos ao cliente antes do fechamento do contrato.</li>
+                                <li><strong>BDI sobre Terceiros:</strong> A HM Engenharia irá cobrar o BDI em cima dessas atividades por estar acompanhando e finalizando os acabamentos.</li>
+                                <li><strong>Garantia de Qualidade:</strong> Todos os serviços de terceiros seguirão o padrão de qualidade e acabamento exigido pela franquia Subway.</li>
+                            </ul>
+                        </div>
+                        <ul class="notes-list" id="notes-list">
+                            <!-- Additional notes will be populated by JavaScript -->
+                        </ul>
+                    </div>
+                    <div class="warranty-box">
+                        <h3>🛡️ Garantias</h3>
+                        <p><strong>12 meses</strong> para serviços próprios</p>
+                        <p><strong>5 anos</strong> para instalações elétricas</p>
+                        <div class="warranty-details">
+                            <p>Garantia de integração e padrão de qualidade Subway em todos os serviços executados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Fale Conosco</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>Entre em contato para dúvidas, esclarecimentos ou solicitações de ajustes na proposta.</p>
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <strong>📞 Telefone:</strong>
+                                <p>(62) 9999-9999</p>
+                            </div>
+                            <div class="contact-item">
+                                <strong>📧 E-mail:</strong>
+                                <p>contato@hmengenharia.com.br</p>
+                            </div>
+                            <div class="contact-item">
+                                <strong>📍 Endereço:</strong>
+                                <p>Setor Aeroporto - Goiânia/GO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-actions">
+                        <button class="btn btn--primary btn--lg" onclick="window.print()">
+                            📄 Imprimir Proposta
+                        </button>
+                        <button class="btn btn--secondary btn--lg" onclick="scrollToTop()">
+                            ↑ Voltar ao Topo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Service Modal -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <div id="modal-details"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 HM Engenharia - Proposta apresentada em 20 de junho de 2025</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
